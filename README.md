@@ -24,10 +24,9 @@ The solution utilizes a **Hub-and-Spoke** virtual topology over the existing phy
 - **The Overlay:** Tailscale (WireGuard-based) mesh network.
 - **The Bridge:** Encapsulated traffic flows through the virtual `tailscale0` interface, bypassing the ZTE router's filtering logic.
 
-> **Visual Representation:**
-> [Insert your High-Quality Diagram here - `./images/network-diagram.png`]
-> [Insert your High-Quality Diagram here - `./images/network-diagram1.png`]
-
+ **Visual Representation:**
+![Ping Failure](./images/network-diagram.png)
+![Ping Failure](./images/network-diagram1.png)
 
 ---
 
